@@ -1,3 +1,4 @@
+
 #main-doc {
     width: 100%;
     height: 100%;
@@ -9,11 +10,53 @@
     height: 100%;
     background-color: aqua;
 }
+#navbar a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color:black;
+    border: 1px solid #999
+}
+#navbar header {
+    font-size:2em;
+    padding:10px;
+    text-align: center;
+}
 
 #info {
     margin-left: 350px;
 }
+.main-section{
+    margin-left:300px;
+    padding-left:10px;
+}
+.main-section header{
+    font-size:2em;
 
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    #navbar {
+    
+        height: auto;
+      
+        position: relative;
+
+
+    
+    }
+    .main-section{
+        margin-left:0px
+    }
+    
+    
+    
+      }
 
 
 
